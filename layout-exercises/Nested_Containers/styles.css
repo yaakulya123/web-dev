@@ -1,0 +1,36 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Outermost container */
+.outer {
+    width: 90vw; /* Almost full width */
+    margin: 2rem auto; /* Center it with margin */
+    padding: 2rem;
+    background-color: #3498db;
+}
+
+/* Each nested container is 50% of its parent */
+.container {
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* Different background colors for visualization */
+.middle-1 {
+    background-color: #2ecc71;
+}
+
+.middle-2 {
+    background-color: #f1c40f;
+}
+
+.inner {
+    background-color: #e74c3c;
+}

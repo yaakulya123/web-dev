@@ -1,0 +1,51 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Overall page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+/* Main layout container */
+.container {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left column */
+.left-column {
+    width: 30%;
+    background-color: #3498db;
+    color: white;
+    padding: 2rem;
+}
+
+/* Right column */
+.right-column {
+    width: 70%;
+    background-color: #2ecc71;
+    color: white;
+    padding: 2rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
