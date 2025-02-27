@@ -38,3 +38,15 @@ Ultimately, the journey of translating the Batmobile into a digital timeline was
 
 ![image](https://github.com/user-attachments/assets/fbcfe750-f69d-4bc9-8020-31f90dde1157)
 
+## Citations & Used Resources
+
+- https://caniuse.com/flexbox
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+- https://www.w3schools.com/html/html_css.asp
+- https://fonts.google.com/specimen/Roboto
+- https://unsplash.com/s/photos/batman
+- https://freesound.org/people/pikachu09/sounds/205937/
+- https://css-tricks.com/toe-dipping-into-view-transitions/
+- https://batman.fandom.com/wiki/Batmobile
+- https://www.artstation.com/artwork/YanzWX
+- https://www.dc.com/blog/2014/06/16/themed-printables-the-batmobile
