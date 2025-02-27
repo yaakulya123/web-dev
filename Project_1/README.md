@@ -1,4 +1,4 @@
-# Reflection on Translating the Batmobile into a Digital Experience
+# Reflection: Translating the Batmobile into a Digital Experience (700 Words)
 
 In this project, I chose to translate my physical Hot Wheels Batmobile into a dynamic digital timeline exhibit. The original item—a Hot Wheels Batmobile toy—has always fascinated the batman fan in me. Originating from the iconic line of collectible toy cars, this particular model represents a beloved piece of Batman lore. It isn’t just a toy; it’s a miniature manifestation of the larger-than-life world of comics and cinema. I selected this item because it embodies both nostalgia and cultural significance. Its physical presence carries the weight of its historical context—from early Batman serials to modern blockbuster interpretations. For me, it symbolized the evolution of the Batmobile in popular culture and offered a tangible connection to a larger narrative.
 
