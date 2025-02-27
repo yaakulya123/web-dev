@@ -20,6 +20,8 @@ Another significant challenge was refining the sticky header and background imag
 
 Ensuring compatibility and responsiveness across devices also posed a challenge. I incorporated media queries into my CSS so that the timeline layout would gracefully adapt to smaller screens, making the content accessible on both desktop and mobile devices.
 
+![image](https://github.com/user-attachments/assets/196f5213-9b19-4251-9947-955957ddcf99)
+
 ## Impact of Digital Translation
 
 Digital translation has a transformative impact on the original item. The digital version of the Batmobile timeline offers enhanced accessibility; anyone with an internet connection can explore the exhibit without needing the physical toy. The interactivity of the digital medium—achieved through hover effects, sticky elements, and multimedia components like a looping Batman audio track—adds a dynamic element to the experience. These effects, which I implemented through careful CSS coding, layer historical facts, personal reflections, and audio elements to deepen the viewer’s engagement.
@@ -33,3 +35,6 @@ The analog experience of holding the Batmobile toy is intimate and personal—it
 ## Conclusion
 
 Ultimately, the journey of translating the Batmobile into a digital timeline was a process of iterative refinement and creative problem-solving. Each coding challenge—from misaligned elements to responsive design issues—was an opportunity to learn and improve. I meticulously tweaked my HTML and CSS to ensure that every element, from the sticky header to the precise positioning of the timeline dots, contributed to a polished and engaging digital experience. This project has not only honed my technical skills but also deepened my understanding of how digital media can transform and amplify our connection to cultural artifacts. Despite some inevitable losses in tactile charm, the final digital exhibit offers a dynamic and accessible narrative that breathes new life into a cherished physical collectible.
+
+![image](https://github.com/user-attachments/assets/fbcfe750-f69d-4bc9-8020-31f90dde1157)
+
