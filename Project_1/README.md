@@ -8,6 +8,10 @@ The translation process was both challenging and deeply rewarding. I began by co
 
 A key part of the process was determining how to capture the tactile, physical nature of the toy in a digital medium. In its physical form, the Batmobile carries a certain heft (weight, mass, substance) and charm (charisma, attractiveness) that is difficult to emulate on a screen. To overcome this, I focused on visual storytelling by carefully designing elements such as a sticky header, a central red vertical line with red dots marking key events, comic fonts and hover effects on images and content boxes. For example, I used CSS pseudo-elements to create the vertical red line and dots, which required numerous adjustments to margins, padding, and absolute positioning. Each iteration—such as adjusting the padding in left- and right-aligned containers to prevent content from overlapping the central line—was a small victory in translating a physical object’s presence into the digital web interface.
 
+
+![image](https://github.com/user-attachments/assets/73d613f7-0b41-48c8-88ce-01a76e29d1d9)
+
+
 ## Overcoming Technical Challenges
 
 While coding, I encountered several difficulties related to layout and alignment. One major issue was ensuring that the left- and right-aligned timeline items did not overlap the central red line. My initial CSS did not properly constrain the content within its respective half of the screen. To fix this, I experimented with different padding values, flex properties, and absolute positioning techniques. For instance, I adjusted the padding in the left and right containers to push the content away from the center and repositioned the red dots so that they were placed precisely at the edge of each container without crossing over the vertical line. I even had to tweak the margin values and utilize the `::before` pseudo-element to create consistent dots across the timeline.
