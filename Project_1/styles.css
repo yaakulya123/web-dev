@@ -1,0 +1,306 @@
+/* 
+  1) Reset Box-Sizing
+     This ensures padding and border are included in the total width/height 
+     of elements, making layouts more predictable.
+*/
+* {
+    box-sizing: border-box;
+}
+  
+/*
+  2) Body & Background
+     Sets a dark background color (#121212), white text, 
+     and a background image overlay with reduced opacity 
+     to show Batman's head in the top area.
+*/
+body {
+    background: #121212; 
+    color: #fff;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+/* 
+  3) Background Image Overlay 
+     This uses a pseudo-element (::before) to place a large Batman image 
+     behind the content, with a fixed position and reduced opacity. 
+*/
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('batman-bg.jpg') no-repeat center top;
+    background-size: cover; 
+    opacity: 0.3; /* Adjust opacity as needed */
+    z-index: -1; /* Places the image behind the main content */
+}
+  
+/*
+  4) Sticky Header - Smaller
+     The header is positioned 'sticky' so it remains visible at the top
+     as you scroll. Padding is reduced for a smaller height.
+*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1a1a1a;
+    padding: 10px; /* Reduced padding for a smaller header */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+  
+/* 
+  5) Header Title & Divider 
+     The main title is slightly smaller (2em) with reduced margin. 
+     The red divider is just a horizontal bar under the title.
+*/
+.title {
+    font-size: 2em; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 10px 0; 
+}
+  
+.divider {
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 5px auto;
+    border-radius: 2px;
+}
+  
+header p {
+    font-size: 1em; 
+    opacity: 0.8;
+    margin: 5px 0;
+}
+  
+/*
+  6) Timeline Container
+     Centers the timeline, sets a maximum width, and adds vertical spacing.
+*/
+.timeline {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 0;
+}
+  
+/*
+  7) Vertical Red Line
+     A pseudo-element placed at the center (50% width) of the timeline 
+     that extends from top to bottom.
+*/
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2.5px; /* Half of 5px for perfect centering */
+}
+  
+/*
+  8) Timeline Item Containers
+     Each container is half the page width and placed on either the left 
+     or right side. They have extra padding for spacing.
+*/
+.container {
+    position: relative;
+    width: 50%;
+    padding: 10px 40px;
+    margin-bottom: 40px;
+}
+  
+/* 
+  Left side containers are aligned to the left side (0) and text is right-aligned.
+*/
+.container.left {
+    left: 0;
+    text-align: right;
+}
+  
+/* 
+  Right side containers start at 50% from the left 
+  so they're placed on the right half, text is left-aligned.
+*/
+.container.right {
+    left: 50%;
+    text-align: left;
+}
+  
+/*
+  9) Timeline Dot
+     A red dot with a white border placed near the top of each container,
+     indicating a point on the timeline.
+*/
+.container::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 3px solid #fff;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+  
+/*
+  The dot for left side containers is placed to the right edge 
+  (just before the vertical red line).
+*/
+.container.left::before {
+    right: -10px;
+}
+  
+/*
+  The dot for right side containers is placed to the left edge 
+  (just before the vertical red line).
+*/
+.container.right::before {
+    left: -10px;
+}
+  
+/*
+  10) Content Box
+      Each timeline item’s text and images go here. 
+      It has a white background with rounded corners.
+*/
+.content {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+  
+/*
+  11) Image Styling & Hover Overlay
+      The images fill the content box width and have a subtle zoom effect on hover.
+      We also add a "More Info" overlay that appears on hover.
+*/
+.content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+  
+/* Slight zoom on image hover */
+.content img:hover {
+    transform: scale(1.05);
+}
+  
+/*
+  The "More Info" overlay is initially hidden (opacity: 0)
+  and appears (opacity: 1) when the user hovers over the image.
+*/
+.content img::after {
+    content: 'More Info';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+    font-size: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+.content img:hover::after {
+    opacity: 1;
+}
+  
+/*
+  12) Hover Effect on Content Box
+      Slightly enlarges the entire white box (text + image) 
+      when the container is hovered.
+*/
+.container:hover .content {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+  
+/*
+  13) Back to Top Button
+      A red circular button in the bottom-right corner 
+      that scrolls the page back to the top when clicked.
+*/
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: red;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(255,49,49,0.7);
+}
+  
+.back-to-top:hover {
+    transform: scale(1.1);
+    background: darkred;
+}
+  
+/*
+  14) Footer
+      A dark area at the bottom with a Batman quote 
+      and your name (Yaakulya) or any other credits.
+*/
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
+  
+.footer p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+  
+/*
+  15) Responsive Design
+      For screens narrower than 768px (like mobile), 
+      make the timeline full-width and remove left/right splits.
+*/
+@media screen and (max-width: 768px) {
+    /* Move the red line to the center and make containers 100% wide */
+    .timeline::after {
+      left: 50%;
+    }
+    .container {
+      width: 100%;
+      padding: 10px 20px;
+      left: 0 !important;
+      text-align: left;
+    }
+    /* The timeline dot also moves to the left side for all containers */
+    .container::before {
+      left: -10px;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    Tells the browser we’re using HTML5 and sets the language to English.
+    The <meta charset="UTF-8"> ensures we can use standard characters.
+    We also link to a Google Font (Bebas Neue) and our CSS file (styles.css).
+  -->
+  <meta charset="UTF-8">
+  <title>Evolution of the Batmobile</title>
+  <!-- Google Font: Bebas Neue -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 
+    This <audio> element automatically plays a Batman audio track on page load
+    and loops it continuously. 
+    Browsers may block autoplay under certain conditions (user settings, etc.).
+  -->
+  <audio autoplay loop>
+    <source src="batman-audio.mp3" type="audio/mpeg">
+    <!-- If a browser doesn't support the <audio> tag, show this text: -->
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- 
+    The <header> section contains the page title, a decorative divider, 
+    and a short subtitle. 
+    It's set to be 'sticky' in our CSS so it stays visible when scrolling.
+  -->
+  <header>
+    <h1 class="title">The Evolution of the Batmobile</h1>
+    <div class="divider"></div>
+    <p>From Comics to Collectibles – A Digital Tribute</p>
+  </header>
+
+  <!-- 
+    The main timeline container. 
+    Each "container" inside it is positioned either to the left or right of a
+    central red line. 
+  -->
+  <div class="timeline">
+
+    <!-- 1943 (Left Side) -->
+    <div class="container left">
+      <div class="content">
+        <!-- Image and text describing the 1943 Batmobile -->
+        <img src="batmobile-1943.jpg" alt="1943 Batmobile">
+        <h2>1943 – The First Batmobile</h2>
+        <p>The first-ever Batmobile from the Batman serials, based on a stock Cadillac. It was a simple black car with no Bat-symbols, reflecting Batman's early years.</p>
+      </div>
+    </div>
+
+    <!-- 1966 (Right Side) -->
+    <div class="container right">
+      <div class="content">
+        <!-- Image and text describing the 1966 Batmobile -->
+        <img src="batmobile-1966.jpg" alt="1966 Batmobile">
+        <h2>1966 – The Most Iconic Batmobile</h2>
+        <p>Driven by Adam West, this Batmobile was a modified 1955 Lincoln Futura concept car. With red piping, rocket tubes, and the famous bubble windshield, it became one of the most recognizable Batmobiles ever.</p>
+      </div>
+    </div>
+
+    <!-- 1989 (Left Side) -->
+    <div class="container left">
+      <div class="content">
+        <!-- Image and text describing the 1989 Batmobile -->
+        <img src="batmobile-1989.jpg" alt="1989 Batmobile">
+        <h2>1989 – The Dark Knight’s Ride</h2>
+        <p>Tim Burton’s Batman (played by Michael Keaton) introduced a sleek, jet-inspired Batmobile with a turbine engine, making it one of the most aggressive-looking versions.</p>
+      </div>
+    </div>
+
+    <!-- 2005 (Right Side) -->
+    <div class="container right">
+      <div class="content">
+        <!-- Image and text describing the 2005 Tumbler -->
+        <img src="batmobile-2005.jpg" alt="2005 Batmobile">
+        <h2>2005 – The Tumbler</h2>
+        <p>Christopher Nolan’s Dark Knight trilogy introduced the Tumbler, a military-grade, tank-like Batmobile with unmatched durability and jumping capabilities.</p>
+      </div>
+    </div>
+
+    <!-- 2016 (Left Side) -->
+    <div class="container left">
+      <div class="content">
+        <!-- Image and text describing the 2016 Hybrid Batmobile -->
+        <img src="batmobile-2016.jpg" alt="2016 Batmobile">
+        <h2>2016 – The Hybrid Batmobile</h2>
+        <p>Batman v Superman featured a new Batmobile that combined elements of the Tumbler and classic designs, with heavy armor and massive firepower.</p>
+      </div>
+    </div>
+
+    <!-- Hot Wheels (Right Side) -->
+    <div class="container right">
+      <div class="content">
+        <!-- Image and text describing the Hot Wheels Batmobile toy -->
+        <img src="batmobile-hotwheels.jpg" alt="Hot Wheels Batmobile">
+        <h2>The Batmobile in Your Hands</h2>
+        <p>Hot Wheels has turned Batman’s legendary car into a collectible, allowing fans to own a piece of Bat-history in miniature form.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+    A floating button in the bottom-right corner that takes you back to the top
+    of the page when clicked.
+  -->
+  <a href="#" class="back-to-top">↑</a>
+
+  <!-- 
+    The footer includes a Batman quote and my name haha!. 
+    It's styled to match the dark theme of the header.
+  -->
+  <footer class="footer">
+    <p>"I'm Batman." — Bruce Wayne</p>
+    <p>© 2025 Yaakulya</p>
+  </footer>
+</body>
+</html>
