@@ -44,7 +44,7 @@ body::before {
 /*
   4) Sticky Header - Smaller
      The header is positioned 'sticky' so it remains visible at the top
-     as you scroll. Padding is reduced for a smaller height.
+     as we scroll. Padding is reduced for a smaller height.
 */
 header {
     position: sticky;
