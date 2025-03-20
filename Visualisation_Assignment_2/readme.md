@@ -1,3 +1,22 @@
+# Vintage Movie Posters Collection
+
+![image](https://github.com/user-attachments/assets/abfb12af-a31d-4369-b44b-4d5ca814eabd)
+
+
+### Introduction
+- This visual collection will showcase iconic movie posters from the golden age of cinema, offering a window into the evolution of film marketing and graphic design across different decades. The collection will feature 10-15 carefully selected posters that represent diverse genres, artistic movements, and cultural periods, each accompanied by rich metadata that contextualizes its significance in film history.
+
+### Project Purpose
+- The primary goal of this collection is to explore how visual marketing materials reflect both the content of films and the broader cultural aesthetics of their time periods. By examining the selected artifacts through their visual design elements rather than just film content, the collection will reveal patterns in how different genres were visually coded across decades and how design choices influenced viewer expectations.
+
+- Each poster in the collection will be cataloged with intentional metadata including year released, director, genre(s), country of origin, dominant color palette, artistic style, and cultural significance. This structured approach will allow users to discover connections between visual aesthetics and cinematic history, tracing the evolution of design trends through the lens of movie marketing.
+
+### Historical Context
+- Movie posters serve as valuable cultural artifacts that document changing artistic sensibilities, technological developments in printing, and evolving marketing strategies. This collection highlights how poster design transitioned through various movements including Art Deco, Expressionism, Minimalism, and other significant visual styles, providing insight into broader trends in graphic design history.
+- For the interface design I'm thinking to present posters in a responsive grid layout with JavaScript functionality for filtering by decade, genre, or visual aesthetics. When users hover over or select a poster, additional metadata appears alongside contextual information about the poster's design significance. This interactive approach encourages exploration and discovery of visual patterns across the collection.
+
+---
+
 # Vintage Movie Posters Collection - Spreadsheet Template
 
 ## Main Data
@@ -44,3 +63,14 @@
 | P003 | classic hollywood, war film, romance, humphrey bogart, ingrid bergman |
 | P004 | hitchcock, psychological, james stewart, kim novak, saul bass |
 | P005 | hitchcock, slasher precursor, anthony perkins, janet leigh, saul bass |
+
+--- 
+
+# CSS Sketch 
+
+![image](https://github.com/user-attachments/assets/d5015418-b7db-4c5a-8be2-6016a0e1c006)
+
+![image](https://github.com/user-attachments/assets/c792a3f2-428f-499b-8ba2-f7a6335b3e82)
+
+
+
