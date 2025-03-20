@@ -1,5 +1,8 @@
 # Vintage Movie Posters Collection
 
+![image](https://github.com/user-attachments/assets/abfb12af-a31d-4369-b44b-4d5ca814eabd)
+
+
 ### Introduction
 - This visual collection will showcase iconic movie posters from the golden age of cinema, offering a window into the evolution of film marketing and graphic design across different decades. The collection will feature 10-15 carefully selected posters that represent diverse genres, artistic movements, and cultural periods, each accompanied by rich metadata that contextualizes its significance in film history.
 
