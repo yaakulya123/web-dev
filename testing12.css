@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);  /* 4 columns */
+    grid-template-rows: repeat(2, 100px);     /* 2 rows */
+    gap: 10px;                                /* space between squares */
+}
+
+.grid-item {
+    background-color: #3498db;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    background-color: #2980b9;
+}
