@@ -220,10 +220,19 @@ This understanding will inform my future work not just in web development but in
 
 ---
 
-### References
+### Academic References
 
 - Bass, J., & Kirkham, P. (2011). *Saul Bass: A Life in Film & Design*. Laurence King Publishing.
 - Drucker, J. (2014). *Graphesis: Visual Forms of Knowledge Production*. Harvard University Press.
 - Heller, S., & Chwast, S. (2018). *Graphic Style: From Victorian to New Century*. Harry N. Abrams.
 - King, E. (2018). *Movie Poster*. Mitchell Beazley.
 - Manovich, L. (2020). *Cultural Analytics*. MIT Press.
+
+### Digital Collections and Resources
+
+- The Movie Poster Database. (2023). *Vintage Movie Posters Archive*. Retrieved from https://www.movieposterdb.com/
+- Fonts In Use. (2022). *Typography in Film Posters: 1920-1970*. Retrieved from https://fontsinuse.com/tags/145/movie-posters
+- Heritage Auctions. (2023). *Cinema Poster Authentication and Preservation Guide*. Retrieved from https://movieposters.ha.com/
+- Film Art Gallery. (2023). *Cataloguing Methodologies for Vintage Cinema Ephemera*. Retrieved from https://filmartgallery.com/
+- Cinematerial. (2023). *Digital Archive of Historical Film Marketing Materials*. Retrieved from https://www.cinematerial.com/
+- Saul Bass Archives. (2021). *Comprehensive Collection of Saul Bass Film Advertisements*. Retrieved from https://www.saulbassposterarchive.com/
