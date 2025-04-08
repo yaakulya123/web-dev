@@ -220,13 +220,12 @@ This understanding will inform my future work not just in web development but in
 
 ---
 
-### Academic References
+### Academic References 
 
 - Bass, J., & Kirkham, P. (2011). *Saul Bass: A Life in Film & Design*. Laurence King Publishing.
 - Drucker, J. (2014). *Graphesis: Visual Forms of Knowledge Production*. Harvard University Press.
 - Heller, S., & Chwast, S. (2018). *Graphic Style: From Victorian to New Century*. Harry N. Abrams.
 - King, E. (2018). *Movie Poster*. Mitchell Beazley.
-- Manovich, L. (2020). *Cultural Analytics*. MIT Press.
 
 ### Digital Collections and Resources
 
